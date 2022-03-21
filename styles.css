@@ -1,0 +1,101 @@
+/* GENERAL*/
+.html, body {
+    font-family:'Raleway', Arial, Helvetica, sans-serif;
+    margin: auto;
+    height: auto;
+  }
+  nav, section {
+    width: 95%;
+    margin: 2%;
+  }
+  .flexCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flexAround {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  }
+  .flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .flexColumnCentre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .flexColumnAround {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+  }
+  .flexColumnBetween {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .decorationNone {
+    text-decoration: none;
+  }
+  .bordureNone {
+    border: none;
+  }
+  .texteGras {
+    font-weight: bolder;
+  }
+  .bleuColor {
+    color:#0065FC;
+  }
+  .bleuClairColor {
+   color: #DEEBFF; 
+  }
+  .grisColor {
+    color:#F2F2F2;
+  }
+  .blackColor {
+      color: black;
+  }
+  .bleuBackround {
+    background-color:#0065FC;
+  }
+  .BleuClairBackground {
+   background-color: #DEEBFF; 
+  }
+  .grisBackground {
+    background-color:#F2F2F2;
+  }
+  /* NAV */
+  .navSize {
+      height: auto;
+  }
+  .liensSize {
+      width: 25%;
+  }
+  .lienSize {
+      width: 160px;
+      height: 99px;
+  }
+  .logoSize {
+      width: 120px;
+      height: 50px;
+  }
+  .logoMargin {
+      margin-bottom: 7px;
+  }
+  .bordureNav {
+   border-top: 1px solid transparent;
+  }
+  .bordureNav:hover {
+    border-top: 1px solid #0065FC;
+    cursor: pointer;
+  }
+  .bordureNav:hover > a{
+   color: #0065FC;
+  } 
+
+    
