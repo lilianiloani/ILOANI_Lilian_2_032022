@@ -16,55 +16,40 @@
         <title>Booki</title>   
     </head>
     <body>
-        <nav class="navSize"> 
-            <div class="flexBetween">
-                <div class="logoMargin"><img src="images/logo/Booki@3x.png" alt="logo Booki" class="logoSize"/></div>
-                <div class="liensSize flexAround">
-                    <div class="lienSize flexCentre bordureNav"><a class="decorationNone bleuColor" href="#">Hébergements</a></div>
-                    <div class="lienSize flexCentre bordureNav"><a class="decorationNone blackColor" href="#">Activités</a></div>
-                </div>
-            </div>
-        </nav>
         <header>
-            <section>
-                    <h1 class="texteGras">Trouvez votre hérbergement pour des vacances de rêve</h1>
-                    <p>En plein centre ville ou en pleine nature</p>
-
-                <div class="bordureSearch flexCentre">
-                    <div class="grisBackground flexCentre iconSize"><i class="fas fa-map-marker-alt"></i></div>
-                    <div><input class="recherche flexCentre bordureNone searchPadding" type="search" value="Marseille, France"/></div>
-                    <div class="buttonSearch bleuBackground flexCentre">Rechercher</div>
-                </div>
-
-                <div class="filtre FiltreMargin">
-                    <div class="FiltreTitreMargin"><h3>Filtres</h3></div>     
-                        <div class="flexBetween filtreIconsTexte">
-                            <i class="fas fa-money-bill-wave fa-lg filtreIcons flexCentre"></i>
-                            <div class="filtreTexte flexCentre">Économique</div>
-                        </div>
-
-                        <div class="flexBetween filtreIconsTexte">
-                            <i class="fas fa-child fa-lg filtreIcons flexCentre"></i>
-                            <div class="filtreTexte flexCentre">Familiales</div>
-                        </div>
-
-                        <div class="flexBetween filtreIconsTexte">
-                            <i class="fas fa-heart fa-lg filtreIcons flexCentre"></i>
-                            <div class="filtreTexte flexCentre">Romantique</div>
-                        </div>
-
-                        <div class="flexBetween filtreIconsTexte">
-                            <i class="fas fa-dog fa-lg filtreIcons flexCentre"></i>
-                            <div class="filtreTexte flexCentre">Animaux autorisés</div>
-                        </div>
-                </div>
-                <div class="info">
-                    <div class="infoIcon flexCentre"><i class="fas fa-info fa-xs bleuColor"></i></div>
-                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
-                </div>
-
-            </section>
+            <img src="images/logo/Booki@3x.png" alt="logo Book"class="logoSize"/>
+            <nav class="navSize">
+                <ul>
+                    <li class="navBordure bleuColor" ><a href="#"></a>Hérbergement</li>
+                    <li class="navBordure"><a href="#"></a>Activités</li>
+                </ul>
+            </nav> 
         </header>
+        <main>
+            <section>
+                    <h1>Trouvez votre hérbergement pour des vacances de rêve</h1>
+                    <p>En plein centre ville ou en pleine nature</p>
+            </section>
+                <div class="SearchButton">
+                    <i class="fas fa-map-marker-alt iconSize"></i>
+                    <input type="search" value="Marseille, France"/>
+                    <div class="recherche">Rechercher</div>
+                </div>
+            <section>
+                <div class="filtre">
+                    <h3>Filtres</h3>
+                    <ul class="filtres">
+                        <li class="filtreTitre filtreTexte"><i class="fas fa-money-bill-wave fa-lg filtreIcons"></i><span class="filtreTexteMargin">Économique</span></li>
+                        <li class="filtreTitre filtreTexte"><i class="fas fa-child fa-lg filtreIcons"></i><span class="filtreTexteMargin">Familiales</span></li>
+                        <li class="filtreTitre filtreTexte"><i class="fas fa-heart fa-lg filtreIcons"></i><span class="filtreTexteMargin">Romantique</span></li>
+                        <li class="filtreTitre filtreTexte"><i class="fas fa-dog fa-lg filtreIcons"></i><span class="filtreTexteMargin">Animaux autorisés</span></li>
+                    </ul>
+                </div>
+            </section>
+            <div class="info">
+                <div class="infoIcon"><i class="fas fa-info fa-xs bleuColor"></i></div>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
 
     </body>
 </html>
