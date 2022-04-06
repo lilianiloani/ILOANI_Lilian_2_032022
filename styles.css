@@ -553,6 +553,8 @@ input {
 .blocPopulaire {
   border-radius: 0;
   margin: 0px;
+  padding-right: 22px;
+  padding-left: 22px;
 } 
 .cubePopulaire {
   width: 95%;
