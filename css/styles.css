@@ -350,7 +350,7 @@ margin-bottom: 50px;
 .cubeActivités {
   width: 23%;
   border-radius: 15px;
-  box-shadow: 5px 5px 5px 1px #DEEBFF;
+  box-shadow: 5px 5px 8px 5px #deebff;
   display: flex;
   flex-direction: column;
 }
@@ -361,7 +361,7 @@ margin-bottom: 50px;
 .cubeActivités2_3_5_6 {
   width: 100%;
   border-radius: 15px;
-  box-shadow: 5px 5px 5px 1px #DEEBFF; 
+  box-shadow: 5px 5px 8px 5px #deebff; 
   display: flex;
   flex-direction: column;
 }
@@ -612,7 +612,7 @@ input {
 .cubeActivités {
   width: 100%;
   margin-bottom: 30px;
-  /* margin-left: 20px; */
+  box-shadow: 5px 5px 10px 5px #f5f6f8;;
 }
 .blocActivités2_3_5_6 {
   width: 100%;
@@ -620,8 +620,8 @@ input {
 }
 .cubeActivités2_3_5_6 {
   margin-bottom: 30px;
-  /* margin-left: 20px; */
   width:100%;
+  box-shadow: 5px 5px 10px 5px #f5f6f8;;
 }
 .imgActivitésG, .imgActivitésM, .imgActivitésP {
   height: 150px;
